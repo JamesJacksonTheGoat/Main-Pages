@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+
+  font-family: Arial, sans-serif;
+
+  background-image: url("https://assets.westchestermagazine.com/wp-content/uploads/2024/05/04-The-X-Mansion-Icons-Airbnb-Credit-Holly-Andres.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: #000000;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  gap: 10px;
+  padding: 12px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+.navbar a:hover {
+  background: red;
+  border-radius: 6px;
+}
+
+.main-content {
+  max-width: 1100px;
+  margin: 25px auto;
+  padding: 10px;
+}
+
+.content-box {
+  background: #ffdd00;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
