@@ -33,6 +33,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 8px 12px;
+  
 }
 
 .navbar a:hover {
@@ -81,4 +82,8 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+.navbar .logo {
+  font-weight: 600;
+  font-size: 16px;
 }
